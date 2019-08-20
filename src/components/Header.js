@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 class Header extends Component {
   render() {
     return (
-      <header>
-        <div>LOGO</div>
+      <div>
+        <span>NAME OF THE SITE</span>
 
         <div>
           <ul>
@@ -19,7 +19,7 @@ class Header extends Component {
             </li>
           </ul>
         </div>
-      </header>
+      </div>
     );
   }
 }
