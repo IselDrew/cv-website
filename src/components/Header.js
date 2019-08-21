@@ -1,27 +1,15 @@
-import React, {Component} from 'react';
+import React from "react";
 
-class Header extends Component {
-  render() {
-    return (
-      <div>
-        <span>NAME OF THE SITE</span>
+function Header({ titles }) {
+  const headerElements = titles.map(item => (
+    <li className="header-element" key={item.id}>
+      <a className="header-element-name" href={item.url}>
+        {item.name}
+      </a>
+    </li>
+  ));
 
-        <div>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Projects</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    );
-  }
+  return <ul className="header">{headerElements}</ul>;
 }
 
 export default Header;
