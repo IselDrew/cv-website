@@ -2,14 +2,14 @@ import React from "react";
 
 function Header({ titles }) {
   const headerElements = titles.map(item => (
-    <li className="header-element" key={item.id}>
-      <a className="header-element-name" href={item.url}>
+    <li className="header-li" key={item.id}>
+      <a className="header-a" href={item.url}>
         {item.name}
       </a>
     </li>
   ));
 
-  return <ul className="header">{headerElements}</ul>;
+  return <ul className="header-ul">{headerElements}</ul>;
 }
 
 export default Header;
