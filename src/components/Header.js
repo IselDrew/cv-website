@@ -11,7 +11,7 @@ function Header(props) {
 
   return (
     <div>
-      <h1 className="website-title">Andrew's WebSite</h1>
+      <h1 className="website-title">Name of Site</h1>
       <ul className="header-ul">{headerElements}</ul>
       <br />
     </div>

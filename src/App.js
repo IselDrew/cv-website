@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header titles={titles} />
       <HomePage paragraphs={paragraphs} />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

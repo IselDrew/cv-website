@@ -1,9 +1,7 @@
 body {
-  /* background-color: grey; */
   margin-left: 15%;
   margin-right: 15%;
   font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
-  /* border: 1px solid black; */
 }
 
 /* Slick Carousel styling: */
@@ -11,10 +9,6 @@ body {
 .slider {
   width: 50%;
 }
-
-/* .slick-slide {
-  margin: 0 10px;
-} */
 
 .slick-slide img {
   width: 975px;
@@ -32,6 +26,10 @@ body {
 .slick-next:before {
   color: black;
 }
+
+/* .slick-slide {
+  margin: 0 10px;
+} */
 
 /* Navbar styling: */
 
@@ -77,12 +75,16 @@ body {
   border-right: solid 1px darkgrey;
 }
 
+/* Paragrapghs styling: */
+
 .paragraph-element {
   display: inline-block;
   /* background-color: green; */
   margin-top: 15px;
   width: 300px;
   height: 300px;
+  color: grey;
+  font-size: 14px;
 }
 
 .paragraph-element:not(:last-child) {
@@ -90,28 +92,23 @@ body {
 }
 
 .paragraph-image {
-  /* background-color: yellow; */
   height: 60%;
   width: 100%;
 }
 
-.paragrapgh-text {
-  text-align: left;
-  padding-top: 250px;
-  font-family: "Work Sans", sans-serif;
+/* Footer styling: */
+
+.footer {
+  background-color: darkgrey;
+  width: 100%;
+  height: 50px;
 }
 
-/* .container {
-  margin: 0 auto;
-  padding: 40px;
-  width: 80%;
-  color: #333;
-  background: white;
-} */
-
-/* .footer {
-  border: 1px solid black;
-  background-color: darkgrey;
-  height: 50px;
+.footer-text {
   color: white;
-} */
+  font-size: 14px;
+  line-height: 50px;
+  height: 30%;
+  width: 600px;
+  margin-left: 50px;
+}
