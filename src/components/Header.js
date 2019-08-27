@@ -1,7 +1,7 @@
 import React from "react";
 
-function Header({ titles }) {
-  const headerElements = titles.map(item => (
+function Header(props) {
+  const headerElements = props.titles.map(item => (
     <li className="header-li" key={item.id}>
       <a className="header-a" href={item.url}>
         {item.name}
@@ -11,6 +11,7 @@ function Header({ titles }) {
 
   return (
     <div>
+      <h1 className="website-title">Andrew's WebSite</h1>
       <ul className="header-ul">{headerElements}</ul>
       <br />
     </div>

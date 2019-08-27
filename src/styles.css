@@ -2,7 +2,7 @@ body {
   /* background-color: grey; */
   margin-left: 15%;
   margin-right: 15%;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
   /* border: 1px solid black; */
 }
 
@@ -18,11 +18,11 @@ body {
 
 .slick-slide img {
   width: 975px;
-  height: 350px;
+  height: 400px;
 }
 
 .slick-list {
-  max-height: 350px;
+  max-height: 400px;
 }
 
 .slick-prev:before {
@@ -35,10 +35,16 @@ body {
 
 /* Navbar styling: */
 
+.website-title {
+  text-transform: uppercase;
+  color: grey;
+}
+
 .header-ul {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .header-li {
@@ -69,6 +75,30 @@ body {
 
 .header-li:not(:last-child) {
   border-right: solid 1px darkgrey;
+}
+
+.paragraph-element {
+  display: inline-block;
+  /* background-color: green; */
+  margin-top: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.paragraph-element:not(:last-child) {
+  margin-right: 22px;
+}
+
+.paragraph-image {
+  /* background-color: yellow; */
+  height: 60%;
+  width: 100%;
+}
+
+.paragrapgh-text {
+  text-align: left;
+  padding-top: 250px;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* .container {

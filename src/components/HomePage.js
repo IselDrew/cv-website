@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 class HomePage extends Component {
   render() {
-    let settings = {
+    const settings = {
       slideToShow: 1,
       centerMode: true,
       dots: true,
@@ -13,28 +13,40 @@ class HomePage extends Component {
       autoplay: true,
       variableWidth: true
     };
+
+    const paragraphElements = this.props.paragraphs.map(item => (
+      <div className="paragraph-element">
+        <img className="paragraph-image" src={item.url} alt="ParagraphImage" />
+        <span className="paragraph-text">{item.text}</span>
+      </div>
+    ));
+
     return (
-      <div className="container">
+      <div>
         <Slider {...settings}>
           <div>
-            <img src="https://cdn.dribbble.com/users/72506/screenshots/4935260/dramatic-vector-landscapes.jpg" />
+            <img
+              src="https://cdn.dribbble.com/users/72506/screenshots/4935260/dramatic-vector-landscapes.jpg"
+              alt="slide"
+            />
           </div>
           <div>
-            <img src="https://img.freepik.com/free-vector/tree-mountain-landscape_1048-9294.jpg?size=626&ext=jpg" />
+            <img
+              src="https://img.freepik.com/free-vector/tree-mountain-landscape_1048-9294.jpg?size=626&ext=jpg"
+              alt="slide"
+            />
           </div>
           <div>
-            <img src="https://i.ytimg.com/vi/yWYBIYD4JNo/maxresdefault.jpg" />
+            <img
+              src="https://i.ytimg.com/vi/yWYBIYD4JNo/maxresdefault.jpg"
+              alt="slide"
+            />
           </div>
         </Slider>
 
-        {/* <div className="image-list">
-          <img src="https://avatars2.githubusercontent.com/u/9293098?s=88&v=4" />
-          <span>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font.
-          </span>
-        </div> */}
+        <br />
+
+        <div>{paragraphElements}</div>
       </div>
     );
   }
