@@ -6,7 +6,12 @@ import "slick-carousel/slick/slick-theme.css";
 class HomePage extends Component {
   render() {
     let settings = {
-      dots: true
+      slideToShow: 1,
+      centerMode: true,
+      dots: true,
+      arrows: true,
+      autoplay: true,
+      variableWidth: true
     };
     return (
       <div className="container">
@@ -22,14 +27,14 @@ class HomePage extends Component {
           </div>
         </Slider>
 
-        <div className="image-list">
+        {/* <div className="image-list">
           <img src="https://avatars2.githubusercontent.com/u/9293098?s=88&v=4" />
           <span>
             I'm a paragraph. Click here to add your own text and edit me. It’s
             easy. Just click “Edit Text” or double click me to add your own
             content and make changes to the font.
           </span>
-        </div>
+        </div> */}
       </div>
     );
   }

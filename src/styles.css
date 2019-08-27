@@ -1,9 +1,39 @@
 body {
+  /* background-color: grey; */
   margin-left: 15%;
   margin-right: 15%;
   font-family: "Work Sans", sans-serif;
   /* border: 1px solid black; */
 }
+
+/* Slick Carousel styling: */
+
+.slider {
+  width: 50%;
+}
+
+/* .slick-slide {
+  margin: 0 10px;
+} */
+
+.slick-slide img {
+  width: 975px;
+  height: 350px;
+}
+
+.slick-list {
+  max-height: 350px;
+}
+
+.slick-prev:before {
+  color: black;
+}
+
+.slick-next:before {
+  color: black;
+}
+
+/* Navbar styling: */
 
 .header-ul {
   margin: 0px;
@@ -23,7 +53,7 @@ body {
 }
 
 .header-a {
-  color: black;
+  color: grey;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
@@ -38,7 +68,7 @@ body {
 }
 
 .header-li:not(:last-child) {
-  border-right: solid 1px grey;
+  border-right: solid 1px darkgrey;
 }
 
 /* .container {

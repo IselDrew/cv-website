@@ -9,7 +9,12 @@ function Header({ titles }) {
     </li>
   ));
 
-  return <ul className="header-ul">{headerElements}</ul>;
+  return (
+    <div>
+      <ul className="header-ul">{headerElements}</ul>
+      <br />
+    </div>
+  );
 }
 
 export default Header;
