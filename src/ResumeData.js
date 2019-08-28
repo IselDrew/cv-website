@@ -24,17 +24,47 @@ export const titles = [
 export const paragraphs = [
   {
     id: 5,
-    url: 'https://avatars2.githubusercontent.com/u/9293098?s=88&v=4',
-    text: 'I\'m a paragraph. Click here to add your own text and edit me. It\’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.'
+    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    text:
+      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
     id: 6,
-    url: 'https://avatars2.githubusercontent.com/u/9293098?s=88&v=4',
-    text: 'I\'m a paragraph. Click here to add your own text and edit me. It\’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.'
+    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    text:
+      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
     id: 7,
-    url: 'https://avatars2.githubusercontent.com/u/9293098?s=88&v=4',
-    text: 'I\'m a paragraph. Click here to add your own text and edit me. It\’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.'
+    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    text:
+      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   }
-]
+];
+
+export const teamList = [
+  {
+    id: 8,
+    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    name: "NAME",
+    title: "title",
+    text:
+      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
+  },
+  {
+    id: 9,
+    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    name: "NAME",
+    title: "title",
+    text:
+      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
+  },
+  {
+    id: 10,
+    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    name: "NAME",
+    title: "title",
+    text:
+      "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
+  }
+];
