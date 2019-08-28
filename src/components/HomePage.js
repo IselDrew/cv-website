@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { paragraphs } from "../ResumeData";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -14,7 +15,8 @@ class HomePage extends Component {
       variableWidth: true
     };
 
-    const paragraphElements = this.props.paragraphs.map(item => (
+    const paragraphElements = paragraphs.map(item => (
+      // const paragraphElements = this.props.paragraphs.map(item => (
       <div className="paragraph-element">
         <img className="paragraph-image" src={item.url} alt="ParagraphImage" />
         <span className="paragraph-text">{item.text}</span>

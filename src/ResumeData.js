@@ -2,22 +2,22 @@ export const titles = [
   {
     name: "home",
     id: 1,
-    url: "#"
+    url: "/"
   },
   {
     name: "about",
     id: 2,
-    url: "#"
+    url: "/about"
   },
   {
     name: "projects",
     id: 3,
-    url: "#"
+    url: "/projects"
   },
   {
     name: "contact",
     id: 4,
-    url: "#"
+    url: "/contact"
   }
 ];
 
