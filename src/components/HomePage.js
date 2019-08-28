@@ -6,7 +6,7 @@ import { paragraphs } from "../ResumeData";
 
 class HomePage extends Component {
   render() {
-    const settings = {
+    const sliderSettings = {
       slideToShow: 1,
       centerMode: true,
       dots: true,
@@ -25,7 +25,7 @@ class HomePage extends Component {
 
     return (
       <div>
-        <Slider {...settings}>
+        <Slider {...sliderSettings}>
           <div>
             <img
               src="https://cdn.dribbble.com/users/72506/screenshots/4935260/dramatic-vector-landscapes.jpg"

@@ -16,17 +16,18 @@ function Contact() {
         </div>
         <div>
           <div>
-            <input type="text" placeholder="Name *" />
-            <br />
-            <input type="text" placeholder="Email *" />
-            <br />
-            <input type="text" placeholder="Subject" />
-            <input type="text" placeholder="Message" />
+            <form>
+              <input type="text" placeholder="Name *" />
+              <br />
+              <input type="text" placeholder="Email *" />
+              <br />
+              <input type="text" placeholder="Subject" />
+              <input type="text" placeholder="Message" />
+              <button>send</button>
+            </form>
           </div>
-          <button>send</button>
         </div>
       </div>
-      <div>map</div>
     </div>
   );
 }

@@ -1,41 +1,43 @@
+import uniqid from "uniqid";
+
 export const titles = [
   {
     name: "home",
-    id: 1,
+    id: uniqid(),
     url: "/"
   },
   {
     name: "about",
-    id: 2,
+    id: uniqid(),
     url: "/about"
   },
   {
     name: "projects",
-    id: 3,
+    id: uniqid(),
     url: "/projects"
   },
   {
     name: "contact",
-    id: 4,
+    id: uniqid(),
     url: "/contact"
   }
 ];
 
 export const paragraphs = [
   {
-    id: 5,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
-    id: 6,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
-    id: 7,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
@@ -44,7 +46,7 @@ export const paragraphs = [
 
 export const teamList = [
   {
-    id: 8,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     name: "NAME",
     title: "title",
@@ -52,7 +54,7 @@ export const teamList = [
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
-    id: 9,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     name: "NAME",
     title: "title",
@@ -60,7 +62,7 @@ export const teamList = [
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
-    id: 10,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     name: "NAME",
     title: "title",
@@ -71,21 +73,21 @@ export const teamList = [
 
 export const projectsList = [
   {
-    id: 11,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
-    id: 12,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
-    id: 13,
+    id: uniqid(),
     img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
     title: "title",
     text:
