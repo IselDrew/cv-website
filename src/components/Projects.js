@@ -3,7 +3,7 @@ import { projectsList } from "../ResumeData";
 
 function Projects() {
   const projectsListElements = projectsList.map(item => (
-    <div>
+    <div key={item.id}>
       <img src={item.img} alt={item.title} />
       <br />
       <span>{item.title}</span>

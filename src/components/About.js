@@ -3,7 +3,7 @@ import { teamList } from "../ResumeData";
 
 function About() {
   const teamListElements = teamList.map(item => (
-    <div>
+    <div key={item.id}>
       <img src={item.img} alt={item.name} />
       <br />
       <span>{item.name}</span>
