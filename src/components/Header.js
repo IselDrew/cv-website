@@ -1,20 +1,24 @@
-import React from "react";
-import { BrowserRouter as Route, Link } from "react-router-dom";
+import React from "react"
+import { BrowserRouter as Route, Link } from "react-router-dom"
 
 function Header(props) {
   const headerElements = props.titles.map(item => (
-    <li className="header-li" key={item.id}>
-      <Link className="header-a" to = {item.url}>{item.name}</Link>
+    <li className="navbar-li" key={item.id}>
+      <Link className="navbar-a" to={item.url}>
+        {item.name}
+      </Link>
     </li>
-  ));
+  ))
 
   return (
     <div>
-      <h1 className="website-title">Name of Site</h1>
-        <ul className="header-ul">{headerElements}</ul>
+      <div className="website-title">Name of Site</div>
+      <div className="navbar">
+        <ul className="navbar-ul">{headerElements}</ul>
+      </div>
       <br />
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header

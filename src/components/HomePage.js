@@ -1,57 +1,55 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { paragraphs } from "../ResumeData";
+import React, { Component } from "react"
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import { paragraphs } from "../ResumeData"
 
 class HomePage extends Component {
   render() {
     const sliderSettings = {
       slideToShow: 1,
       centerMode: true,
-      dots: true,
+      dots: false,
       arrows: true,
       autoplay: true,
-      variableWidth: true
-    };
+      variableWidth: true,
+    }
 
     const paragraphElements = paragraphs.map(item => (
       // const paragraphElements = this.props.paragraphs.map(item => (
       <div className="paragraph-element" key={item.id}>
         <img className="paragraph-image" src={item.img} alt="ParagraphImage" />
-        <span className="paragraph-text">{item.text}</span>
+        <div className="paragraph-text">{item.text}</div>
       </div>
-    ));
+    ))
 
     return (
       <div>
         <Slider {...sliderSettings}>
           <div>
             <img
-              src="https://cdn.dribbble.com/users/72506/screenshots/4935260/dramatic-vector-landscapes.jpg"
+              src="https://i.pinimg.com/originals/72/35/18/723518ecde953dff2f96822948e94cbc.jpg"
               alt="slide"
             />
           </div>
           <div>
             <img
-              src="https://img.freepik.com/free-vector/tree-mountain-landscape_1048-9294.jpg?size=626&ext=jpg"
+              src="https://cdnb.artstation.com/p/assets/images/images/001/764/185/large/yanchong-lim-fger.jpg?1452393000"
               alt="slide"
             />
           </div>
           <div>
             <img
-              src="https://i.ytimg.com/vi/yWYBIYD4JNo/maxresdefault.jpg"
+              src="https://c4.wallpaperflare.com/wallpaper/745/98/536/diablo-iii-dark-digital-art-painting-wallpaper-f960982df13a6d6bb6e758bf60a176cd.jpg"
               alt="slide"
             />
           </div>
         </Slider>
 
-        <br />
-
-        <div>{paragraphElements}</div>
+        <div className="paragraphs">{paragraphElements}</div>
       </div>
-    );
+    )
   }
 }
 
-export default HomePage;
+export default HomePage

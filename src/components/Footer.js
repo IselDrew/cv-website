@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 class Footer extends Component {
   render() {
@@ -6,8 +6,8 @@ class Footer extends Component {
       <div className="footer">
         <span className="footer-text">© Created by Andrii Kyselov</span>
       </div>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer

@@ -1,7 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  height: 100%;
   margin-left: 15%;
   margin-right: 15%;
   font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.website-title {
+  padding-bottom: 15px;
+  padding-top: 30px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+/* Navbar styling: */
+
+.navbar-ul {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-li {
+  background-color: lightgrey;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+
+.navbar-a {
+  height: 30px;
+  line-height: 30px;
+  color: grey;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+}
+
+.navbar-a:hover {
+  color: white;
+  background-color: grey;
+}
+
+.navbar-li:not(:last-child) {
+  border-right: solid 1px darkgrey;
 }
 
 /* Slick Carousel styling: */
@@ -27,64 +78,20 @@ body {
   color: black;
 }
 
-/* .slick-slide {
-  margin: 0 10px;
-} */
-
-/* Navbar styling: */
-
-.website-title {
-  text-transform: uppercase;
-  color: grey;
-}
-
-.header-ul {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.header-li {
-  width: 200px;
-  height: 30px;
-  background: lightgrey;
-  display: inline-block;
-  line-height: 30px;
-  text-align: center;
-  font-size: 12px;
-  border-right: solid 1px white;
-}
-
-.header-a {
-  color: grey;
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: color 0.2s linear;
-  -webkit-transition: color 0.2s linear;
-  -moz-transition: color 0.2s linear;
-}
-
-.header-a:hover {
-  color: white;
-  background-color: grey;
-}
-
-.header-li:not(:last-child) {
-  border-right: solid 1px darkgrey;
-}
-
 /* Paragrapghs styling: */
+/* ------------------------------------------------------- */
+/* !!!Unresponsive part!!! */
+/* ------------------------------------------------------- */
+
+.paragraphs {
+  margin-top: 20px;
+}
 
 .paragraph-element {
   display: inline-block;
-  /* background-color: green; */
   margin-top: 15px;
   width: 300px;
   height: 300px;
-  color: grey;
-  font-size: 14px;
 }
 
 .paragraph-element:not(:last-child) {
@@ -96,12 +103,20 @@ body {
   width: 100%;
 }
 
+.paragraph-text {
+  margin-top: 20px;
+  color: grey;
+  font-size: 14px;
+}
+/* ------------------------------------------------------- */
+
 /* Footer styling: */
 
 .footer {
   background-color: darkgrey;
   width: 100%;
   height: 50px;
+  margin-top: 20px;
 }
 
 .footer-text {
@@ -112,3 +127,27 @@ body {
   width: 600px;
   margin-left: 50px;
 }
+
+/* Old paragraphs styling (may be useful) */
+
+/* .paragraphs {
+  background-color: pink;
+  margin-top: 30px;
+  width: 100%;
+  height: 350px;
+  display: inline-block;
+  text-align: justify;
+}
+
+.paragraph-element {
+  width: 32%;
+  height: 350px;
+  background-color: yellow;
+  display: inline-block;
+}
+
+.paragraphs:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+} */
