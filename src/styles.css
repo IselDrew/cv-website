@@ -252,3 +252,45 @@ hr {
 .projects-list-text {
   font-size: 13px;
 }
+
+/* ------------------------------------------------------- */
+/* -----------------CONTACT PAGE STYLING ----------------- */
+/* ------------------------------------------------------- */
+
+.contact-component {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+.contact-title {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.contact-container {
+  width: 80%;
+  margin-top: 15px;
+  margin-left: auto;
+  display: flex;
+  font-size: 14px;
+}
+
+.contact-information {
+  padding-right: 40px;
+}
+
+.contact-hr {
+  width: 25%;
+}
+
+.contact-numbers {
+  padding-bottom: 10px;
+}
+
+.contact-address {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

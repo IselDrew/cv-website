@@ -3,13 +3,13 @@ import { projectsList } from "../ResumeData"
 
 function Projects() {
   const projectsListElements = projectsList.map(item => (
-    <div className='projects-list-element' key={item.id}>
-      <img className='projects-list-img' src={item.img} alt={item.title} />
+    <div className="projects-list-element" key={item.id}>
+      <img className="projects-list-img" src={item.img} alt={item.title} />
       <br />
-      <span className='projects-list-title'>{item.title}</span>
-      <hr className='projects-list-hr'/>
-      <div className='projects-list-text'>
-      <span>{item.text}</span>
+      <span className="projects-list-title">{item.title}</span>
+      <hr className="projects-list-hr" />
+      <div className="projects-list-text">
+        <span>{item.text}</span>
       </div>
     </div>
   ))
@@ -33,7 +33,7 @@ function Projects() {
         company stand out and show your visitors who you are.
       </span>
 
-      <div className='projects-list'>{projectsListElements}</div>
+      <div className="projects-list">{projectsListElements}</div>
     </div>
   )
 }

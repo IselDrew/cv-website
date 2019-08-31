@@ -47,7 +47,7 @@ export const paragraphs = [
 export const teamList = [
   {
     id: uniqid(),
-    img: "https://www.logolynx.com/images/logolynx/5f/5f7582061c4c0944f56e4fe3c7ff8710.jpeg",
+    img: "https://www.kinonews.ru/insimgs/persimg/persimg19210.jpg",
     name: "name",
     title: "title",
     text:
@@ -55,7 +55,7 @@ export const teamList = [
   },
   {
     id: uniqid(),
-    img: "http://images1.wikia.nocookie.net/__cb20120208103143/wow/ru/images/9/9f/ScourgeCrest.jpg",
+    img: "https://pbs.twimg.com/profile_images/285647546/IMG_2024_edited_400x400.JPG",
     name: "name",
     title: "title",
     text:
@@ -63,7 +63,7 @@ export const teamList = [
   },
   {
     id: uniqid(),
-    img: "https://i.pinimg.com/originals/e4/58/75/e458759bac114406af8730159bca960b.jpg",
+    img: "https://pbs.twimg.com/profile_images/1002021179186544641/_c9ugmrm_400x400.jpg",
     name: "name",
     title: "title",
     text:
@@ -74,21 +74,21 @@ export const teamList = [
 export const projectsList = [
   {
     id: uniqid(),
-    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    img: "https://www.logolynx.com/images/logolynx/5f/5f7582061c4c0944f56e4fe3c7ff8710.jpeg",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
     id: uniqid(),
-    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    img: "http://images1.wikia.nocookie.net/__cb20120208103143/wow/ru/images/9/9f/ScourgeCrest.jpg",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
     id: uniqid(),
-    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
+    img: "https://i.pinimg.com/originals/e4/58/75/e458759bac114406af8730159bca960b.jpg",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
