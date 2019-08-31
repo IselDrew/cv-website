@@ -15,7 +15,7 @@ import { titles } from "./ResumeData"
 
 function App() {
   return (
-    <div>
+    <div className='whole-page'>
       <Router>
         <Header titles={titles} />
         <Route exact path="/" component={HomePage} />

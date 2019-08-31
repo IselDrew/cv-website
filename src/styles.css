@@ -1,17 +1,13 @@
-* {
-  box-sizing: border-box;
+hr {
+  margin-left: 0;
+  margin-right: 0;
 }
 
-body {
+.whole-page {
   height: 100%;
   margin-left: 15%;
   margin-right: 15%;
   font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-hr {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .website-title {
@@ -72,6 +68,7 @@ hr {
 }
 
 .slick-list {
+  max-width: 1920px;
   max-height: 400px;
 }
 
@@ -105,7 +102,7 @@ hr {
 .paragraph-text {
   margin-top: 20px;
   color: grey;
-  font-size: 14px;
+  font-size: 13px;
 }
 /* ------------------------------------------------------- */
 
@@ -127,30 +124,9 @@ hr {
   margin-left: 50px;
 }
 
-/* Old paragraphs styling (may be useful) */
-
-/* .paragraphs {
-  background-color: pink;
-  margin-top: 30px;
-  width: 100%;
-  height: 350px;
-  display: inline-block;
-  text-align: justify;
-}
-
-.paragraph-element {
-  width: 32%;
-  height: 350px;
-  background-color: yellow;
-  display: inline-block;
-}
-
-.paragraphs:after {
-  content: "";
-  width: 100%;
-  display: inline-block;
-} */
-
+/* ------------------------------------------------------- */
+/* -----------------ABOUT PAGE STYLING --------------------*/
+/* ------------------------------------------------------- */
 .about-component {
   width: 90%;
   margin: auto;
@@ -210,5 +186,69 @@ hr {
 }
 
 .about-list-text {
+  font-size: 13px;
+}
+
+/* ------------------------------------------------------- */
+/* -----------------PROJECTS PAGE STYLING -----------------*/
+/* ------------------------------------------------------- */
+.projects-component {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+.projects-title {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.projects-paragraph {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  font-size: 13px;
+}
+
+.projects-list {
+  display: flex;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.projects-list-element {
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+.projects-list-img {
+  height: 60%;
+  width: 100%;
+}
+
+.projects-list-name {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.projects-list-hr {
+  width: 33%;
+}
+
+.projects-list-title {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.projects-list-text {
   font-size: 13px;
 }

@@ -11,6 +11,9 @@ class HomePage extends Component {
       dots: false,
       arrows: true,
       autoplay: true,
+      variableWidth: true,
+      respondTo: 'slider',
+      adaptiveWidth: true
     }
 
     const paragraphElements = paragraphs.map(item => (
@@ -24,20 +27,23 @@ class HomePage extends Component {
     return (
       <div>
         <Slider {...sliderSettings}>
-          <div>
+          <div >
             <img
+              className='slick-image'
               src="https://i.pinimg.com/originals/72/35/18/723518ecde953dff2f96822948e94cbc.jpg"
               alt="slide"
             />
           </div>
           <div>
             <img
+              className='slick-image'
               src="https://cdnb.artstation.com/p/assets/images/images/001/764/185/large/yanchong-lim-fger.jpg?1452393000"
               alt="slide"
             />
           </div>
           <div>
             <img
+              className='slick-image'
               src="https://c4.wallpaperflare.com/wallpaper/745/98/536/diablo-iii-dark-digital-art-painting-wallpaper-f960982df13a6d6bb6e758bf60a176cd.jpg"
               alt="slide"
             />
