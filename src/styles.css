@@ -84,23 +84,17 @@ hr {
 }
 
 /* Paragrapghs styling: */
-/* ------------------------------------------------------- */
-/* !!!Unresponsive part!!! */
-/* ------------------------------------------------------- */
 
 .paragraphs {
-  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
 }
 
 .paragraph-element {
-  display: inline-block;
-  margin-top: 15px;
-  width: 300px;
+  width: 32%;
   height: 300px;
-}
-
-.paragraph-element:not(:last-child) {
-  margin-right: 22px;
 }
 
 .paragraph-image {
