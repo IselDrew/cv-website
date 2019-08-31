@@ -47,24 +47,24 @@ export const paragraphs = [
 export const teamList = [
   {
     id: uniqid(),
-    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
-    name: "NAME",
+    img: "https://www.logolynx.com/images/logolynx/5f/5f7582061c4c0944f56e4fe3c7ff8710.jpeg",
+    name: "name",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
     id: uniqid(),
-    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
-    name: "NAME",
+    img: "http://images1.wikia.nocookie.net/__cb20120208103143/wow/ru/images/9/9f/ScourgeCrest.jpg",
+    name: "name",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."
   },
   {
     id: uniqid(),
-    img: "https://avatars2.githubusercontent.com/u/9293098?s=88&v=4",
-    name: "NAME",
+    img: "https://i.pinimg.com/originals/e4/58/75/e458759bac114406af8730159bca960b.jpg",
+    name: "name",
     title: "title",
     text:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font."

@@ -8,11 +8,9 @@ class HomePage extends Component {
   render() {
     const sliderSettings = {
       slideToShow: 1,
-      centerMode: true,
       dots: false,
       arrows: true,
       autoplay: true,
-      variableWidth: true,
     }
 
     const paragraphElements = paragraphs.map(item => (

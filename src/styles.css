@@ -9,6 +9,11 @@ body {
   font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .website-title {
   padding-bottom: 15px;
   padding-top: 30px;
@@ -151,3 +156,65 @@ body {
   width: 100%;
   display: inline-block;
 } */
+
+.about-component {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.about-paragraph {
+  width: 80%;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: auto;
+  font-size: 13px;
+}
+
+.about-list {
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.about-list-element {
+  width: 30%;
+}
+
+.about-list-img {
+  height: 40%;
+  width: 100%;
+}
+
+.about-list-name {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.about-list-hr {
+  width: 33%;
+}
+
+.about-list-title {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.about-list-text {
+  font-size: 13px;
+}
