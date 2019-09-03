@@ -22,17 +22,39 @@ function Contact() {
           </div>
           <hr className="contact-hr" />
         </div>
-        <div>
-          <div>
-            <form>
-              <input type="text" placeholder="Name *" />
+
+        <div className="form">
+          <div className="inputs">
+            <div className="input-fields-container">
+              <input className="input-field" type="text" placeholder="Name *" />
               <br />
-              <input type="text" placeholder="Email *" />
+              <input
+                className="input-field"
+                type="text"
+                placeholder="Email *"
+              />
               <br />
-              <input type="text" placeholder="Subject" />
-              <input type="text" placeholder="Message" />
+              <input
+                className="input-field"
+                type="text"
+                placeholder="Subject"
+              />
+            </div>
+            <div className="input-message-container">
+              <textarea
+                className="input-message"
+                type="text"
+                placeholder="Message"
+              />
+            </div>
+          </div>
+          <div className="send-button">
+            <div className="warning-container">
+              <span>Please provide a valid email</span>
+            </div>
+            <div className="button-container">
               <button>send</button>
-            </form>
+            </div>
           </div>
         </div>
       </div>
