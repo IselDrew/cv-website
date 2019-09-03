@@ -48,12 +48,12 @@ function Contact() {
               />
             </div>
           </div>
-          <div className="send-button">
+          <div className="validation-container">
             <div className="warning-container">
               <span>Please provide a valid email</span>
             </div>
             <div className="button-container">
-              <button>send</button>
+              <button className="send-button">Send</button>
             </div>
           </div>
         </div>

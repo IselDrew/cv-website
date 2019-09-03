@@ -272,6 +272,7 @@ hr {
 }
 
 .contact-container {
+  /* background-color: blue; */
   width: 80%;
   margin-top: 15px;
   margin-left: auto;
@@ -280,7 +281,7 @@ hr {
 }
 
 .contact-information {
-  width: 20%;
+  width: 30%;
   padding-right: 40px;
 }
 
@@ -290,6 +291,7 @@ hr {
 
 .contact-numbers {
   padding-bottom: 10px;
+  width: 100%;
 }
 
 .contact-address {
@@ -298,7 +300,6 @@ hr {
 }
 
 .form {
-  margin-top: 5px;
   width: 100%;
 }
 
@@ -309,15 +310,27 @@ hr {
 
 .input-fields-container {
   width: 50%;
+  /* position: absolute; */
+  /* right: 5px; */
+  /* top: 10px; */
+  background-color: #494949;
+}
+
+.input-field {
+  height: 20%;
+  width: 95%;
+}
+
+/* .input-fields-container {
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 
 .input-field {
-  height: 25%;
+  height: 20%;
   width: 95%;
-  justify-content: space-between;
-}
+} */
 
 .input-message-container {
   width: 50%;
@@ -325,12 +338,29 @@ hr {
 
 .input-message {
   width: 98%;
-  height: 95%;
+  height: 93%;
   resize: none;
 }
 
-.send-button {
+.validation-container {
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
+}
+
+.warning-container {
+  color: darkred;
+}
+
+.send-button {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  color: white;
+  padding: 7px 7px;
+}
+
+.send-button:hover {
+  background-color: grey;
+  border: 1px solid grey;
+  cursor: pointer;
 }
