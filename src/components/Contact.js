@@ -23,38 +23,20 @@ function Contact() {
           <hr className="contact-hr" />
         </div>
 
-        <div className="form">
-          <div className="inputs">
-            <div className="input-fields-container">
-              <input className="input-field" type="text" placeholder="Name *" />
-              <br />
-              <input
-                className="input-field"
-                type="text"
-                placeholder="Email *"
-              />
-              <br />
-              <input
-                className="input-field"
-                type="text"
-                placeholder="Subject"
-              />
+        <div className="contact-form">
+          <div className="inputs-textarea-container">
+            <div className="inputs-container">
+              <input className="input" type="text" placeholder="Name *" />
+              <input className="input" type="text" placeholder="Email *" />
+              <input className="input" type="text" placeholder="Subject *" />
             </div>
-            <div className="input-message-container">
-              <textarea
-                className="input-message"
-                type="text"
-                placeholder="Message"
-              />
+            <div className="message-textarea">
+              <textarea className="message-area" placeholder="Message" />
             </div>
           </div>
           <div className="validation-container">
-            <div className="warning-container">
-              <span>Please provide a valid email</span>
-            </div>
-            <div className="button-container">
-              <button className="send-button">Send</button>
-            </div>
+            <span className="warning">Please provide a valid email</span>
+            <input className="send-button" type="submit" value="Send" />
           </div>
         </div>
       </div>
