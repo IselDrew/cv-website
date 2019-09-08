@@ -186,12 +186,12 @@ hr {
   width: 30%;
 }
 
-.about-list-img-container {
+.about-list-image-container {
   height: 50%;
   width: 100%;
 }
 
-.about-list-img {
+.about-list-image {
   object-fit: cover;
   height: 100%;
   width: 100%;
@@ -257,12 +257,12 @@ hr {
   padding-bottom: 20px;
 }
 
-.projects-list-img-container {
+.projects-list-image-container {
   height: 60%;
   width: 100%;
 }
 
-.projects-list-img {
+.projects-list-image {
   object-fit: cover;
   height: 100%;
   width: 100%;
