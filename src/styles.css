@@ -63,8 +63,7 @@ hr {
 }
 
 .slick-image {
-  /* object-fit: cover; */
-  width: 975px;
+  object-fit: cover;
   height: 400px;
 }
 
