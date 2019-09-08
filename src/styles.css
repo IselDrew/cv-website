@@ -64,7 +64,8 @@ hr {
 
 .slick-image {
   object-fit: cover;
-  height: 400px;
+  height: 100%;
+  width: 100%;
 }
 
 .slick-list {
@@ -113,8 +114,14 @@ hr {
   position: relative;
 }
 
-.paragraph-image {
+.paragraph-image-container {
   height: 60%;
+  width: 100%;
+}
+
+.paragraph-image {
+  object-fit: cover;
+  height: 100%;
   width: 100%;
 }
 
@@ -179,8 +186,14 @@ hr {
   width: 30%;
 }
 
+.about-list-img-container {
+  height: 50%;
+  width: 100%;
+}
+
 .about-list-img {
-  height: 40%;
+  object-fit: cover;
+  height: 100%;
   width: 100%;
 }
 
@@ -244,8 +257,14 @@ hr {
   padding-bottom: 20px;
 }
 
-.projects-list-img {
+.projects-list-img-container {
   height: 60%;
+  width: 100%;
+}
+
+.projects-list-img {
+  object-fit: cover;
+  height: 100%;
   width: 100%;
 }
 

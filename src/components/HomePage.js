@@ -19,7 +19,9 @@ class HomePage extends Component {
         <div className="paragraph-title-container">
           <span className="paragraph-title">{item.title}</span>
         </div>
-        <img className="paragraph-image" src={item.img} alt="ParagraphImage" />
+        <div className="paragraph-image-container">
+          <img className="paragraph-image" src={item.img} alt="ParagraphImage" />
+        </div>
         <div className="paragraph-text">{item.text}</div>
       </div>
     ))
