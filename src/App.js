@@ -1,6 +1,6 @@
 import React from "react"
 // import { BrowserRouter as Router, Route } from "react-router-dom"
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { BrowserRouter as HashRouter, Route } from "react-router-dom"
 
 //components
 import Header from "./components/Header"
@@ -16,26 +16,34 @@ import { titles } from "./data"
 function App() {
   return (
     <div className="whole-page">
-      <Router>
+      <HashRouter>
         <Header titles={titles} />
-        <Route exact path={process.env.PUBLIC_URL + "/"} component={HomePage} />
+        <Route 
+          exact 
+          path="/" 
+          // path={process.env.PUBLIC_URL + "/"} 
+          component={HomePage} 
+        />
         <Route
           exact
-          path={process.env.PUBLIC_URL + "/about"}
+          path="/about"
+          // path={process.env.PUBLIC_URL + "/about"}
           component={About}
         />
         <Route
           exact
-          path={process.env.PUBLIC_URL + "/projects"}
+          path="/projects"
+          // path={process.env.PUBLIC_URL + "/projects"}
           component={Projects}
         />
         <Route
           exact
-          path={process.env.PUBLIC_URL + "/contact"}
+          path="/contact"
+          // path={process.env.PUBLIC_URL + "/contact"}
           component={Contact}
         />
         <Footer />
-      </Router>
+      </HashRouter>
     </div>
   )
 }
