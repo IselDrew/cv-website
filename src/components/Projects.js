@@ -1,20 +1,21 @@
 import React from "react"
 import { projectsList } from "../ResumeData"
 
-function Projects() {
-  const projectsListElements = projectsList.map(item => (
-    <div className="projects-list-element" key={item.id}>
-      <div className="projects-list-image-container">
-        <img className="projects-list-image" src={item.img} alt={item.title} />
-      </div>
-      <br />
-      <span className="projects-list-title">{item.title}</span>
-      <hr className="projects-list-hr" />
-      <div className="projects-list-text">
-        <span>{item.text}</span>
-      </div>
+const projectsListElements = projectsList.map(item => (
+  <div className="projects-list-element" key={item.id}>
+    <div className="projects-list-image-container">
+      <img className="projects-list-image" src={item.img} alt={item.title} />
     </div>
-  ))
+    <br />
+    <span className="projects-list-title">{item.title}</span>
+    <hr className="projects-list-hr" />
+    <div className="projects-list-text">
+      <span>{item.text}</span>
+    </div>
+  </div>
+))
+
+function Projects() {
   return (
     <div className="projects-component">
       <span className="projects-title">Projects</span>

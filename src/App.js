@@ -1,6 +1,6 @@
 import React from "react"
 // import { BrowserRouter as Router, Route } from "react-router-dom"
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 //components
 import Header from "./components/Header"
@@ -15,7 +15,7 @@ import { titles } from "./ResumeData"
 
 function App() {
   return (
-    <div className='whole-page'>
+    <div className="whole-page">
       <Router>
         <Header titles={titles} />
         <Route exact path="/" component={HomePage} />

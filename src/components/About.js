@@ -1,20 +1,19 @@
 import React from "react"
 import { teamList } from "../ResumeData"
 
-function About() {
-  const teamListElements = teamList.map(item => (
-    <div className="about-list-element" key={item.id}>
-      <div className="about-list-image-container">
-        <img className="about-list-image" src={item.img} alt={item.name} />
-      </div>
-      <span className="about-list-name">{item.name}</span>
-      <hr className="about-list-hr" />
-      <span className="about-list-title">{item.title}</span>
-      <br />
-      <span className="about-list-text">{item.text}</span>
+const teamListElements = teamList.map(item => (
+  <div className="about-list-element" key={item.id}>
+    <div className="about-list-image-container">
+      <img className="about-list-image" src={item.img} alt={item.name} />
     </div>
-  ))
+    <span className="about-list-name">{item.name}</span>
+    <div className="about-list-hr" />
+    <span className="about-list-title">{item.title}</span>
+    <span className="about-list-text">{item.text}</span>
+  </div>
+))
 
+function About() {
   return (
     <div className="about-component">
       <span className="about-title">About</span>
