@@ -1,27 +1,27 @@
 import uniqid from "uniqid"
 
-import testImg from './images/testImg.png'
+import testImg from "./images/testImg.png"
 
 export const titles = [
   {
     name: "home",
     id: uniqid(),
-    url: "/",
+    url: process.env.PUBLIC_URL + "/",
   },
   {
     name: "about",
     id: uniqid(),
-    url: "/about",
+    url: process.env.PUBLIC_URL + "/about",
   },
   {
     name: "projects",
     id: uniqid(),
-    url: "/projects",
+    url: process.env.PUBLIC_URL + "/projects",
   },
   {
     name: "contact",
     id: uniqid(),
-    url: "/contact",
+    url: process.env.PUBLIC_URL + "/contact",
   },
 ]
 
