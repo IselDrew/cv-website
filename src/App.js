@@ -18,10 +18,22 @@ function App() {
     <div className="whole-page">
       <Router>
         <Header titles={titles} />
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={HomePage} />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/about"}
+          component={About}
+        />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/projects"}
+          component={Projects}
+        />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/contact"}
+          component={Contact}
+        />
         <Footer />
       </Router>
     </div>
