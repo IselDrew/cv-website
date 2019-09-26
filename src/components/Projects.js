@@ -1,5 +1,5 @@
 import React from "react"
-import { projectsList } from "../ResumeData"
+import { projectsList } from "../data"
 
 const projectsListElements = projectsList.map(item => (
   <div className="projects-list-element" key={item.id}>

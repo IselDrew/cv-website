@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import { paragraphs } from "../ResumeData"
+import { paragraphs } from "../data"
 
 import testImg1 from "../images/slick1.png"
 import testImg2 from "../images/slick2.png"

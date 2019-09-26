@@ -11,7 +11,7 @@ import About from "./components/About"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 //data
-import { titles } from "./ResumeData"
+import { titles } from "./data"
 
 function App() {
   return (

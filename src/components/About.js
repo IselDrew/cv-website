@@ -1,5 +1,5 @@
 import React from "react"
-import { teamList } from "../ResumeData"
+import { teamList } from "../data"
 
 const teamListElements = teamList.map(item => (
   <div className="about-list-element" key={item.id}>
